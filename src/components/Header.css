@@ -1,0 +1,81 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    height: 5vh;
+    margin-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header--logo {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    flex: auto;
+    text-align: center;
+}
+
+.header--menu {
+    display: none;
+}
+
+.header--menu li {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.header--button {
+    display: static;
+    margin-right: 20px;
+}
+
+.header--button img {
+    height: 25px;
+    width: 25px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .header {
+        flex-direction: row;
+        margin-bottom: 75px;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 15vh;
+    }
+
+    .header--logo {
+        font-size: 52px;
+        flex: 1;
+        text-align: left;
+    }
+
+    .header--menu {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        flex-direction: row;
+        visibility: visible;
+    }
+
+    .header--menu li {
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 22px;
+    }
+
+    .header--menu li:hover {
+        color: mediumspringgreen;
+    }
+
+    .header--button {
+        display: none;
+    }
+
+}

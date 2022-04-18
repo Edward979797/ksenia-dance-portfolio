@@ -1,0 +1,26 @@
+.front-image {
+    background-color: white;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+
+}
+
+.front-image img {
+    height: 95%;
+    width: 95%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .front-image {
+        min-height: 80vh;
+        margin-bottom: 25px;
+    }
+
+    .front-image img {
+        height: 700px;
+        width: 1200px;
+    }
+}
