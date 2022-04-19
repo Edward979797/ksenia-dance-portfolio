@@ -1,9 +1,10 @@
 .pagetext--highlights {
-    background-color: whitesmoke;
+    background-color: seagreen;
     box-shadow: 20px 10px rgb(212, 192, 155);
-    color: black;
+    color: whitesmoke;
     margin-bottom: 40px;
     margin-left: 10px;
+    min-height: fit-content;
     padding: 20px;
     width: 80vw;
 }
@@ -16,23 +17,105 @@
     font-size: 20px;
     margin-bottom: 40px;
     margin-left: 10px;
+    min-height: fit-content;
     padding: 30px;
     text-align: center;
     width: 90vw;
 }
 
-.pagetext--highlights ul {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.highlights-timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.pagetext--highlights ul > li {
-    letter-spacing: 2px;
-    list-style: circle;
-    margin: 10px;
-    text-align: center;
+.highlights-timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.highlights-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.highlights-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #daa345;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.container-left {
+    left: -6.7%;
+}
+
+.container-right {
+    left: 50%;
+}
+
+.container-left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.container-right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.container-right::after {
+    left: -16px;
+}
+
+.highlights-content {
+    color: whitesmoke;
+    padding: 20px 30px;
+    background-color: seagreen;
+    position: relative;
+    border-radius: 6px;
+    border: solid 8px white;
+}
+
+.highlights-content h2 {
+    font-size: 27px;
+    letter-spacing: 7px;
+}
+
+.highlights-content p {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 24px;
 }
 
 .pagetext--highlights h3 {
@@ -51,6 +134,38 @@
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 600px) {
+.pagetext--highlights h3 {
+    font-size: 32px;
+}
+
+.highlights-timeline::after {
+    left: 5px;
+}
+
+.highlights-container {
+    width: 87%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+    
+.highlights-container::before {
+left: 60px;
+border: medium solid white;
+border-width: 10px 10px 10px 0;
+border-color: transparent white transparent transparent;
+}
+    
+.container-left::after,
+.container-right::after {
+left: 2.5%;
+}
+
+.container-right {
+left: -7%;
+}
+}
+
 @media only screen and (min-width: 1000px) {
     .pagetext {
         align-items: center;
@@ -62,7 +177,7 @@
     .pagetext--highlights,
     .pagetext--experience {
         box-shadow: none;
-        height: 800px;
+        height: fit-content;
         padding: 100px;
         width: 100vw;
     }
