@@ -6,6 +6,12 @@ export default function Header() {
         document.querySelector('.sidenav').style.width = '250px';
     }
 
+    function revealSocial() {
+        document.querySelector('#header--social-link').style.display = 'none';
+
+        document.querySelector('.header--social-icons').style.display = 'flex';
+    }
+
     return (
         <div className="header">
                 <div className="header--logo"><a href="/">Ksenia Druzhinina</a></div>
@@ -14,7 +20,12 @@ export default function Header() {
                     <li>Choreographer</li>
                     <li>Actress</li>
                     <li>Model</li>
-                    <li>Social</li>
+                    <li id="header--social-link" onMouseOver={revealSocial}>Social</li>
+                    <li className="header--social-icons">
+                        <img id="youtube-icon" src={require('../images/youtube.png')} />
+                        <img id="instagram-icon" src={require('../images/instagram.png')} />
+                        <img id="tiktok-icon" src={require('../images/tiktok.png')} />
+                    </li>
                 </div>
                 <div className="header--button">
                     <img onClick={openNav} src={require("../images/menu-icon.png")}/>
