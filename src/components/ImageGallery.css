@@ -1,0 +1,44 @@
+.img-gallery h2 {
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.img-gallery--imgs {
+    display: flex;
+    padding: 10px;
+}
+
+.img-gallery--col-1,
+.img-gallery--col-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.img-gallery--img {
+    margin: 5px;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .img-gallery h2 {
+        font-size: 66px;
+    }
+
+    .img-gallery--imgs {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .img-gallery--img {
+        margin: 15px;
+    }
+
+    .img-gallery--col-1,
+    .img-gallery--col-2 {
+        margin: 15px;
+    }
+}

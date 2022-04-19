@@ -8,9 +8,9 @@ export default function Header() {
 
     return (
         <div className="header">
-                <div className="header--logo">Ksenia Druzhinina</div>
+                <div className="header--logo"><a href="/">Ksenia Druzhinina</a></div>
                 <div className="header--menu">
-                    <li>Dancer</li>
+                    <li><a href="/dance">Dancer</a></li>
                     <li>Choreographer</li>
                     <li>Actress</li>
                     <li>Model</li>

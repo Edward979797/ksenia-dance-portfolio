@@ -1,8 +1,8 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import FrontImage from './components/FrontImage';
-import About from './components/About';
-import Categories from './components/Categories';
+import FrontPage from './components/FrontPage';
+import Page from './components/Page';
 import Footer from './components/Footer';
 import Sidenav from './components/Sidenav';
 
@@ -11,9 +11,12 @@ class App extends React.Component {
         return (
             <div>
                 <Header />
-                <FrontImage />
-                <About />
-                <Categories />
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/" element={<FrontPage />} />
+                        <Route path="/dance" element={<Page />} />
+                    </Routes>
+                </BrowserRouter>
                 <Footer />
                 <Sidenav />
             </div>

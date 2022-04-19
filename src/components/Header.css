@@ -13,6 +13,11 @@
     z-index: 1;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .header--logo {
     color: white;
     font-family: 'Bebas Neue', sans-serif;
@@ -70,7 +75,13 @@
         font-size: 22px;
     }
 
-    .header--menu li:hover {
+    .header--menu > li > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header--menu li:hover,
+    .header--menu > li > a:hover {
         color: mediumspringgreen;
     }
 

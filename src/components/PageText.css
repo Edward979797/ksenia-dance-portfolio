@@ -1,0 +1,93 @@
+.pagetext--highlights {
+    background-color: whitesmoke;
+    box-shadow: 20px 10px rgb(212, 192, 155);
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 80vw;
+}
+
+.pagetext--experience {
+    background-color: whitesmoke;
+    box-shadow: 20px 10px seagreen;
+    box-sizing: border-box;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 90vw;
+}
+
+.pagetext--highlights ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagetext--highlights ul > li {
+    letter-spacing: 2px;
+    list-style: circle;
+    margin: 10px;
+    text-align: center;
+}
+
+.pagetext--highlights h3 {
+    font-size: 24px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.pagetext--experience h3 {
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+
+.pagetext--experience p {
+    color: rgb(66, 63, 63);
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .pagetext {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pagetext--highlights,
+    .pagetext--experience {
+        box-shadow: none;
+        height: 800px;
+        padding: 100px;
+        width: 100vw;
+    }
+
+    .pagetext--highlights {
+        outline: 2px solid rgb(212, 192, 155);
+        margin-bottom: 100px;
+    }
+
+    .pagetext--experience {
+        outline: 2px solid seagreen;
+    }
+
+    .pagetext--highlights h3,
+    .pagetext--experience h3 {
+        font-size: 50px;
+    }
+
+    .pagetext--highlights ul > li {
+        margin: 50px;
+        font-size: 29px;
+    }
+
+    .pagetext--experience p {
+        margin: 50px;
+        font-size: 40px;
+    }
+}
