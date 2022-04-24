@@ -5,7 +5,7 @@
     margin-bottom: 40px;
     margin-left: 10px;
     min-height: fit-content;
-    padding: 20px;
+    padding: 30px;
     width: 80vw;
 }
 
@@ -179,6 +179,7 @@ left: -7%;
         box-shadow: none;
         height: fit-content;
         padding: 100px;
+        padding-top: 50px;
         width: 100vw;
     }
 
@@ -188,21 +189,31 @@ left: -7%;
     }
 
     .pagetext--experience {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         outline: 2px solid seagreen;
     }
 
     .pagetext--highlights h3,
     .pagetext--experience h3 {
-        font-size: 50px;
+        font-size: 70px;
+    }
+
+    .pagetext--highlights h3 {
+        margin-bottom: 100px;
     }
 
     .pagetext--highlights ul > li {
-        margin: 50px;
         font-size: 29px;
+        margin: 50px;
     }
 
     .pagetext--experience p {
-        margin: 50px;
         font-size: 40px;
+        margin: 50px;
+        text-align: center;
+        width: 70%;
     }
 }

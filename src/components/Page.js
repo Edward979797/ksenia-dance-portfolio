@@ -6,10 +6,10 @@ import VideoGallery from './VideoGallery';
 
 export default function() {
     return (
-        <div style={{ backgroundImage: `url(${require('../images/moroccan-flower.png')})` } }>
+        <div>
             <Subheader />
             <PageText />
-            <ImageGallery />
+            <ImageGallery categoryName='dance' />
             <VideoGallery />
         </div>
     );
