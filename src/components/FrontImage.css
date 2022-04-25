@@ -13,6 +13,60 @@
     width: 95%;
 }
 
+#first-image {
+    --webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    animation: fadein 5s;
+}
+
+#second-image {
+    --webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    animation: fadein 10s;
+}
+
+#third-image {
+    --webkit-animation: fadein 15s;
+    -moz-animation: fadein 15s;
+    -ms-animation: fadein 15s;
+    -o-animation: fadein 15s;
+    animation: fadein 15s;
+}
+
+#first-image,
+#third-image {
+    display: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 @media only screen and (min-width: 1000px) {
     .front-image {
         min-height: 80vh;
@@ -21,6 +75,11 @@
 
     .front-image img {
         height: 700px;
-        width: 1200px;
+        width: 450px;
+    }
+
+    #first-image,
+    #third-image {
+        display: block;
     }
 }
