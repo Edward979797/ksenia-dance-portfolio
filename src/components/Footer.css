@@ -1,11 +1,17 @@
 .footer {
-    background-color: seagreen;
-    min-height: 8vh;
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    display: flex;
     align-items: center;
+    background-color: seagreen;
+    color: white;
+    display: flex;
+    font-size: 1rem;
     justify-content: center;
     letter-spacing: 2px;
+    min-height: 8vh;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer {
+        margin-top: 50px;
+    }
 }

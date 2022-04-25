@@ -101,7 +101,12 @@ a {
         justify-content: center;
     }
 
-    .header--social-icons img {
+    .header--social-icons a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header--social-icons > a > img {
         height: 36px;
         margin-bottom: 12px;
 

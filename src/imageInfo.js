@@ -1,47 +1,47 @@
 export default [
     {
         name: 'act-1.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'vertical'
     },
     {
         name: 'act-3.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'horizontal'
     },
     {
         name: 'act-4.JPG',
-        category: 'act',
+        category: 'actress',
         orientation: 'horizontal'
     },
     {
         name: 'act-2.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'vertical'
     },
     {
         name: 'act-5.JPG',
-        category: 'act',
+        category: 'actress',
         orientation: 'vertical'
     },
     {
         name: 'act-7.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'horizontal'
     },
     {
         name: 'act-8.JPG',
-        category: 'act',
+        category: 'actress',
         orientation: 'horizontal'
     },
     {
         name: 'act-6.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'vertical'
     },
     {
         name: 'act-9.jpg',
-        category: 'act',
+        category: 'actress',
         orientation: 'horizontal'
     },
     {
@@ -81,42 +81,42 @@ export default [
     },
     {
         name: 'dance-1.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'vertical'
     },
     {
         name: 'dance-3.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'horizontal'
     },
     {
         name: 'dance-4.png',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'horizontal'
     },
     {
         name: 'dance-2.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'vertical'
     },
     {
         name: 'dance-5.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'vertical'
     },
     {
         name: 'dance-7.JPG',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'horizontal'
     },
     {
         name: 'dance-8.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'horizontal'
     },
     {
         name: 'dance-6.jpg',
-        category: 'dance',
+        category: 'dancer',
         orientation: 'vertical'
     },
 

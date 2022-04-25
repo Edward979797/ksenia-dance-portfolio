@@ -4,13 +4,13 @@ import PageText from './PageText';
 import ImageGallery from './ImageGallery';
 import VideoGallery from './VideoGallery';
 
-export default function() {
+export default function(props) {
     return (
         <div>
-            <Subheader />
-            <PageText />
-            <ImageGallery categoryName='dance' />
-            <VideoGallery />
+            <Subheader categoryName={props.category} />
+            <PageText categoryName={props.category} />
+            <ImageGallery categoryName={props.category} />
+            {props.category === 'dancer' && <VideoGallery categoryName={props.category} />}
         </div>
     );
 }

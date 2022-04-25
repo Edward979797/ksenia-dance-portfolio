@@ -1,7 +1,7 @@
 .vid-gallery h2 {
     font-size: 26px;
-    text-align: center;
     letter-spacing: 6px;
+    text-align: center;
 }
 
 .vid-gallery {
@@ -22,6 +22,10 @@
     width: 30px;
 }
 
+.arrow:active {
+    filter: invert(1);
+}
+
 .vid-gallery--nav-arrows {
     display: flex;
 }
@@ -33,6 +37,8 @@
 @media only screen and (min-width: 1000px) {
     .vid-gallery h2 {
         font-size: 66px;
+        text-decoration: overline;
+        text-decoration-color: seagreen;
     }
     
     .vid-gallery--current {

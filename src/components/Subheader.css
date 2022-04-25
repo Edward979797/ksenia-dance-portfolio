@@ -1,6 +1,6 @@
 .subheader--title {
     font-family: 'Fredoka', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     letter-spacing: 20px;
     margin-bottom: 30px;
     text-align: center;
@@ -20,8 +20,14 @@
 }
 
 .subheader--reel iframe {
-    box-shadow: 10px 10px seagreen;
+    box-shadow: 20px 20px seagreen;
     outline: 5px groove green;
+}
+
+.subheader--reel img {
+    box-shadow: 10px 10px seagreen;
+    height: 202px;
+    width: 360px;
 }
 
 @keyframes fadein {
@@ -52,6 +58,8 @@
 @media only screen and (min-width: 1000px) {
     .subheader--title {
         font-size: 80px;
+        text-decoration: overline;
+        text-decoration-color: seagreen;
     }
 
     .subheader--reel iframe {
@@ -64,5 +72,11 @@
     .subheader--reel {
         margin-top: 25px;
         margin-bottom: 150px;
+    }
+
+    .subheader--reel img {
+        box-shadow: 20px 20px seagreen;
+        height: 600px;
+        width: 1033px;
     }
 }

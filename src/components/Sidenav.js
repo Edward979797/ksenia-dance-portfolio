@@ -10,15 +10,15 @@ export default function Sidenav() {
         <div id="sidenav" className="sidenav">
             <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
             <a href="/">Home</a>
-            <a href="/dance">Dancer</a>
-            <a href="#">Choreographer</a>
-            <a href="#">Actress</a>
-            <a href="#">Model</a>
+            <a href="/dancer">Dancer</a>
+            <a href="/choreo">Choreographer</a>
+            <a href="/actress">Actress</a>
+            <a href="/model">Model</a>
             <div className="sidenav--social-icons">
-                <a>
+                <a href="https://www.youtube.com/channel/UC8LOA0SUjhGPw49QtlN3AYQ/videos">
                     <img id="youtube-icon" src={require('../images/youtube.png')} />
                 </a>
-                <a>
+                <a href="https://www.instagram.com/ksushik__/">
                     <img id="instagram-icon" src={require('../images/instagram.png')} />
                 </a>
                 <a>

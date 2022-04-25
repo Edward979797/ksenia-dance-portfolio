@@ -14,7 +14,10 @@ class App extends React.Component {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<FrontPage />} />
-                        <Route path="/dance" element={<Page />} />
+                        <Route path="/dancer" element={<Page category='dancer' />} />
+                        <Route path="/choreo" element={<Page category='choreo' />} />
+                        <Route path="/actress" element={<Page category='actress' />} />
+                        <Route path="/model" element={<Page category='model' />} />
                     </Routes>
                 </BrowserRouter>
                 <Footer />
