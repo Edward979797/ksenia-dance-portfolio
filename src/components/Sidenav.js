@@ -21,7 +21,7 @@ export default function Sidenav() {
                 <a href="https://www.instagram.com/ksushik__/">
                     <img id="instagram-icon" src={require('../images/instagram.png')} />
                 </a>
-                <a>
+                <a href="https://www.tiktok.com/@__ksushik?lang=en">
                     <img id="tiktok-icon" src={require('../images/tiktok.png')} />
                 </a>
             </div>

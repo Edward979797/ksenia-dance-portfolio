@@ -24,7 +24,7 @@ export default function Header() {
                     <li className="header--social-icons">
                         <a href="https://www.youtube.com/channel/UC8LOA0SUjhGPw49QtlN3AYQ/videos"><img id="youtube-icon" src={require('../images/youtube.png')} /></a>
                         <a href="https://www.instagram.com/ksushik__/"><img id="instagram-icon" src={require('../images/instagram.png')} /></a>
-                        <a href="#"><img id="tiktok-icon" src={require('../images/tiktok.png')} /></a>
+                        <a href="https://www.tiktok.com/@__ksushik?lang=en"><img id="tiktok-icon" src={require('../images/tiktok.png')} /></a>
                     </li>
                 </div>
                 <div className="header--button">

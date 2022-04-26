@@ -30,10 +30,11 @@
 }
 
 .about--text {
+    font-size: 20px;
     width: 100%;
     margin-top: 10px;
     text-align: center;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka';
 }
 
 @media only screen and (min-width: 1000px) {
@@ -51,8 +52,9 @@
     }
 
     .about--text {
-        width: 65%;
-        font-size: 27px;
+        width: 80%;
+        font-size: 36px;
+        line-height: 60px;
         margin-top: 50px;
     }
 }

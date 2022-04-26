@@ -11,7 +11,11 @@ export default function About() {
                     <img src={require('../images/headshot.jpg')} />
                 </div>
                 <div className="about--text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis varius ligula id dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam convallis libero et tortor lacinia semper. Aenean sed dui sit amet ex convallis pulvinar quis vel quam. Integer ut lobortis mauris. Curabitur a facilisis libero, eget pharetra ante. Vestibulum nec eleifend orci. Nulla ultrices tristique tortor, eu venenatis odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ipsum diam, malesuada id tristique a, accumsan ac lorem. Mauris a bibendum lacus, sed luctus sem. Proin varius, neque eu commodo ultrices, dolor nisl sodales velit, et accumsan ante mi id augue.
+                    Hi! My name is Ksenia Druzhinina and I'm a lifelong lover of dance, theatre, and performance. Alongside
+                    my academic background in drama and theatre (York University, Honours BA), my profound passion for international
+                    dance backed up by years of tried-and-true experience make me a polyvalent entertainer who feels at home on the
+                    stage. I've also dabbled in modelling and taken the lead as choreographer. This portfolio is a record of all of the
+                    cool and creative things that I've done so far, so take a look to get an idea of who I am.
                 </div>
         </div>
     );

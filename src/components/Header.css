@@ -20,7 +20,7 @@ a {
 
 .header--logo {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fredoka';
     letter-spacing: 4px;
     font-size: 30px;
     flex: auto;
@@ -72,18 +72,18 @@ a {
 
     .header--menu li {
         width: 110px;
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 22px;
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 28px;
     }
 
     .header--menu > li > a {
         color: white;
         text-decoration: none;
         width: 110px;
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 22px;
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 28px;
     }
 
     .header--menu li:hover,
