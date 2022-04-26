@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import FrontPage from './components/FrontPage';
 import Page from './components/Page';
@@ -11,15 +11,13 @@ class App extends React.Component {
         return (
             <div>
                 <Header />
-                <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<FrontPage />} />
-                        <Route path="/dancer" element={<Page category='dancer' />} />
-                        <Route path="/choreo" element={<Page category='choreo' />} />
-                        <Route path="/actress" element={<Page category='actress' />} />
-                        <Route path="/model" element={<Page category='model' />} />
+                        <Route exact path="/" element={<FrontPage />} />
+                        <Route exact path="/dancer" element={<Page category='dancer' />} />
+                        <Route exact path="/choreo" element={<Page category='choreo' />} />
+                        <Route exact path="/actress" element={<Page category='actress' />} />
+                        <Route exact path="/model" element={<Page category='model' />} />
                     </Routes>
-                </BrowserRouter>
                 <Footer />
                 <Sidenav />
             </div>

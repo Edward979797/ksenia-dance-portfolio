@@ -71,11 +71,12 @@
     .front-image {
         min-height: 80vh;
         margin-bottom: 25px;
+        width: 100%;
     }
 
     .front-image img {
-        height: 700px;
-        width: 450px;
+        height: 70vh;
+        width: auto;
     }
 
     #first-image,

@@ -5,7 +5,7 @@
     align-items: center;
     padding: 10px;
     padding-top: 20px;
-    height: 5vh;
+    height: 10vh;
     margin-bottom: 10px;
     position: -webkit-sticky;
     position: sticky;
@@ -21,8 +21,8 @@ a {
 .header--logo {
     color: white;
     font-family: 'Fredoka';
-    letter-spacing: 4px;
-    font-size: 30px;
+    letter-spacing: 2.5px;
+    font-size: 1.7em;
     flex: auto;
     text-align: center;
 }
@@ -43,6 +43,7 @@ a {
 
 .header--button img {
     height: 25px;
+    margin-top: 5px;
     width: 25px;
 }
 
@@ -56,7 +57,7 @@ a {
     }
 
     .header--logo {
-        font-size: 52px;
+        font-size: 3em;
         flex: 1;
         text-align: left;
     }
@@ -74,7 +75,6 @@ a {
         width: 110px;
         margin-right: 50px;
         margin-left: 50px;
-        font-size: 28px;
     }
 
     .header--menu > li > a {
@@ -83,7 +83,11 @@ a {
         width: 110px;
         margin-right: 0px;
         margin-left: 0px;
-        font-size: 28px;
+        font-size: 1.7em;
+    }
+
+    #header--social-link {
+        font-size: 1.7em;
     }
 
     .header--menu li:hover,

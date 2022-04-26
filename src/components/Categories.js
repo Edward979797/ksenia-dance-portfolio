@@ -1,20 +1,21 @@
 import React from 'react';
 import './Categories.css';
+import { Link } from 'react-router-dom';
 
 export default function Categories() {
     return (
         <div className="categories">
                 <div className="categories--dance" style={{ backgroundImage: `url(${require('../images/category-dance.jpg')})` } }>
-                    <a href="/dancer">Dancing</a>
+                    <Link to="/dancer">Dancing</Link>
                 </div>
                 <div className="categories--choreo" style={{ backgroundImage: `url(${require('../images/category-choreo.png')})` } }>
-                    <a href="/choreo">Choreography</a>
+                    <Link to="/choreo">Choreography</Link>
                 </div>
                 <div className="categories--act" style={{ backgroundImage: `url(${require('../images/category-act.JPG')})` } }>
-                    <a href="/actress">Acting</a>
+                    <Link to="/actress">Acting</Link>
                 </div>
                 <div className="categories--model" style={{ backgroundImage: `url(${require('../images/category-model.jpg')})` } }>
-                    <a href="/model">Modelling</a>
+                    <Link to="/model">Modelling</Link>
                 </div>
         </div>
     );

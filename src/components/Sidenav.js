@@ -1,5 +1,6 @@
 import React from 'react';
 import './Sidenav.css';
+import { Link } from 'react-router-dom';
 
 export default function Sidenav() {
     function closeNav() {
@@ -8,12 +9,12 @@ export default function Sidenav() {
 
     return (
         <div id="sidenav" className="sidenav">
-            <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
-            <a href="/">Home</a>
-            <a href="/dancer">Dancer</a>
-            <a href="/choreo">Choreographer</a>
-            <a href="/actress">Actress</a>
-            <a href="/model">Model</a>
+            <a className="closebtn" onClick={closeNav}>&times;</a>
+            <Link to="/">Home</Link>
+            <Link to="/dancer">Dancer</Link>
+            <Link to="/choreo">Choreographer</Link>
+            <Link to="/actress">Actress</Link>
+            <Link to="/model">Model</Link>
             <div className="sidenav--social-icons">
                 <a href="https://www.youtube.com/channel/UC8LOA0SUjhGPw49QtlN3AYQ/videos">
                     <img id="youtube-icon" src={require('../images/youtube.png')} />

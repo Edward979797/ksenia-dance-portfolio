@@ -156,13 +156,15 @@
 
 .highlights-content h2 {
     color: rgb(255, 255, 255);
-    font-size: 27px;
+    font-size: 1.5em;
     letter-spacing: 7px;
     text-align: center;
+    width: 90%;
+    margin: 10px;
 }
 
 .highlights-content p {
-    font-size: 23px;
+    font-size: 1.2em;
     font-weight: bold;
     line-height: 30px;
     text-align: center;
@@ -191,6 +193,10 @@ left: -7%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .highlights-content {
+        max-width: 80vw;
     }
 
     .highlights-content h2 {
@@ -248,7 +254,7 @@ left: -7%;
     }
 
     .pagetext--experience p {
-        font-size: 55px;
+        font-size: 2em;
         line-height: 66px;
         margin: 50px;
         text-align: center;

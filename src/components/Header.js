@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     function openNav() {
@@ -14,12 +15,12 @@ export default function Header() {
 
     return (
         <div className="header">
-                <div className="header--logo"><a href="/">Ksenia Druzhinina</a></div>
+                <div className="header--logo"><Link to="/">Ksenia Druzhinina</Link></div>
                 <div className="header--menu">
-                    <li><a href="/dancer">Dancer</a></li>
-                    <li><a href="/choreo">Choreo</a></li>
-                    <li><a href="/actress">Actress</a></li>
-                    <li><a href="/model">Model</a></li>
+                    <li><Link to="/dancer">Dancer</Link></li>
+                    <li><Link to="/choreo">Choreo</Link></li>
+                    <li><Link to="/actress">Actress</Link></li>
+                    <li><Link to="/model">Model</Link></li>
                     <li id="header--social-link" onMouseOver={revealSocial}>Social</li>
                     <li className="header--social-icons">
                         <a href="https://www.youtube.com/channel/UC8LOA0SUjhGPw49QtlN3AYQ/videos"><img id="youtube-icon" src={require('../images/youtube.png')} /></a>
