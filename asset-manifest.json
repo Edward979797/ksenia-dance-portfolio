@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ksenia-dance-portfolio/static/css/main.8fd1e842.css",
+    "main.css": "/ksenia-dance-portfolio/static/css/main.06f9b3ec.css",
     "main.js": "/ksenia-dance-portfolio/static/js/main.1cf9f27b.js",
     "static/media/model-9.jpg": "/ksenia-dance-portfolio/static/media/model-9.471378d35880efa41946.jpg",
     "static/media/dance-1.jpg": "/ksenia-dance-portfolio/static/media/dance-1.0b1de20172bc42ab3ccf.jpg",
@@ -64,11 +64,11 @@
     "static/media/moroccan-flower.png": "/ksenia-dance-portfolio/static/media/moroccan-flower.481cdea2bf2e2765556f.png",
     "static/media/06.jpg": "/ksenia-dance-portfolio/static/media/06.68e19e99f131cb61df8f.jpg",
     "index.html": "/ksenia-dance-portfolio/index.html",
-    "main.8fd1e842.css.map": "/ksenia-dance-portfolio/static/css/main.8fd1e842.css.map",
+    "main.06f9b3ec.css.map": "/ksenia-dance-portfolio/static/css/main.06f9b3ec.css.map",
     "main.1cf9f27b.js.map": "/ksenia-dance-portfolio/static/js/main.1cf9f27b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fd1e842.css",
+    "static/css/main.06f9b3ec.css",
     "static/js/main.1cf9f27b.js"
   ]
 }
