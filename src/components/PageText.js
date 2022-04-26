@@ -4,8 +4,7 @@ import contentText from '../contentText';
 
 export default function PageText(props) {
 
-    const textToDisplay = contentText.filter(text => text.category === props.categoryName)
-    console.log(textToDisplay);
+    const textToDisplay = contentText.filter(text => text.category === props.categoryName);
 
     return (
         <div className="pagetext">

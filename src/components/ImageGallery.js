@@ -21,7 +21,7 @@ export default function ImageGallery(props) {
 
         return imagesForCol1.map(image => {
             return (
-                <img className="img-gallery--img" src={require(`../images/${image.name}`)} alt="" />
+                <img key={image.name} className="img-gallery--img" src={require(`../images/${image.name}`)} alt="" />
             );
         })
     }
@@ -30,7 +30,7 @@ export default function ImageGallery(props) {
 
         return imagesForCol2.map(image => {
             return (
-                <img className="img-gallery--img" src={require(`../images/${image.name}`)} alt="" />
+                <img key={image.name} className="img-gallery--img" src={require(`../images/${image.name}`)} alt="" />
             );
         })
     }

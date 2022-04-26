@@ -8,7 +8,7 @@ export default function Sidenav() {
 
     return (
         <div id="sidenav" className="sidenav">
-            <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+            <a href="#" className="closebtn" onClick={closeNav}>&times;</a>
             <a href="/">Home</a>
             <a href="/dancer">Dancer</a>
             <a href="/choreo">Choreographer</a>
