@@ -144,6 +144,14 @@
     font-size: 32px;
 }
 
+.highlights-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
 .highlights-timeline::after {
     left: 5px;
 }
@@ -157,7 +165,7 @@
 .highlights-content h2 {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     text-align: center;
     width: 90%;
     margin: 10px;
@@ -197,6 +205,10 @@ left: -7%;
 
     .highlights-content {
         max-width: 80vw;
+    }
+
+    .highlights-timeline {
+        max-width: 70vw;
     }
 
     .highlights-content h2 {
