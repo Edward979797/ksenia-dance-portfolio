@@ -51,14 +51,15 @@ a {
     .header {
         flex-direction: row;
         margin-bottom: 75px;
-        padding-left: 5%;
-        padding-right: 5%;
-        height: 15vh;
+        padding-bottom: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        height: 120px;
     }
 
     .header--logo {
         font-size: 3em;
-        flex: 1;
         text-align: left;
     }
 
@@ -72,7 +73,7 @@ a {
     }
 
     .header--menu li {
-        width: 110px;
+        width: 20%;
         margin-right: 50px;
         margin-left: 50px;
     }
@@ -80,14 +81,13 @@ a {
     .header--menu > li > a {
         color: white;
         text-decoration: none;
-        width: 110px;
         margin-right: 0px;
         margin-left: 0px;
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     #header--social-link {
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     .header--menu li:hover,

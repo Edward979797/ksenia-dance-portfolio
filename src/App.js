@@ -1,15 +1,17 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import {Routes, Route, HashRouter as Router} from 'react-router-dom';
 import Header from './components/Header';
 import FrontPage from './components/FrontPage';
 import Page from './components/Page';
 import Footer from './components/Footer';
 import Sidenav from './components/Sidenav';
+import ScrollToTop from './ScrollToTop';
 
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <Router>
+                <ScrollToTop />
                 <Header />
                     <Routes>
                         <Route exact path="/" element={<FrontPage />} />
@@ -20,7 +22,7 @@ class App extends React.Component {
                     </Routes>
                 <Footer />
                 <Sidenav />
-            </div>
+            </Router>
         );
     }
 }

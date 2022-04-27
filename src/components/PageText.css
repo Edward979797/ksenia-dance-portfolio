@@ -117,7 +117,6 @@
 
 .highlights-content p {
     font-size: 33px;
-    font-weight: bold;
     line-height: 50px;
     text-align: center;
 }
@@ -173,7 +172,6 @@
 
 .highlights-content p {
     font-size: 1.2em;
-    font-weight: bold;
     line-height: 30px;
     text-align: center;
 }
@@ -220,7 +218,6 @@ left: -7%;
     
     .highlights-content p {
         font-size: 33px;
-        font-weight: bold;
         line-height: 50px;
         text-align: center;
     }
