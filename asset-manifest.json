@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ksenia-dance-portfolio/static/css/main.bface7fc.css",
-    "main.js": "/ksenia-dance-portfolio/static/js/main.3b405966.js",
+    "main.js": "/ksenia-dance-portfolio/static/js/main.d295e532.js",
     "static/media/model-9.jpg": "/ksenia-dance-portfolio/static/media/model-9.471378d35880efa41946.jpg",
     "static/media/dance-1.jpg": "/ksenia-dance-portfolio/static/media/dance-1.0b1de20172bc42ab3ccf.jpg",
     "static/media/model-13.jpg": "/ksenia-dance-portfolio/static/media/model-13.c7f918d7d5fefedce7d5.jpg",
@@ -65,10 +65,10 @@
     "static/media/06.jpg": "/ksenia-dance-portfolio/static/media/06.68e19e99f131cb61df8f.jpg",
     "index.html": "/ksenia-dance-portfolio/index.html",
     "main.bface7fc.css.map": "/ksenia-dance-portfolio/static/css/main.bface7fc.css.map",
-    "main.3b405966.js.map": "/ksenia-dance-portfolio/static/js/main.3b405966.js.map"
+    "main.d295e532.js.map": "/ksenia-dance-portfolio/static/js/main.d295e532.js.map"
   },
   "entrypoints": [
     "static/css/main.bface7fc.css",
-    "static/js/main.3b405966.js"
+    "static/js/main.d295e532.js"
   ]
 }
